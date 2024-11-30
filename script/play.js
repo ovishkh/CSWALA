@@ -3,6 +3,7 @@ const mainVideo = document.getElementById('main-video');
 const nextVideos = document.querySelectorAll('.recommendations li');
 const noteTextarea = document.getElementById('notes');
 
+
 // State to track main video completion
 let mainVideoCompleted = false;
 
