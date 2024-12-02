@@ -14,7 +14,9 @@
  <li>Hero Section with Paralax Tilt 3D Animation.</li>
  <li>Features Section with Transition Animation.</li>
  <li>Popular Courses Section with Paralax Tilt 3D Animation.</li>
+ <li>Beautiful Bouncy Ball in the Background of Popular Courses Section.</li>
  <li>Student Feedback Section implemented with Features like Slider and Carousel.</li>
  <li>Latest Articles Section with Hover Animation.</li>
  <li>Amazing Footer Section with Hover Animation.</li>
+ <li>Scroll to Top Arrow Button for Navigation.</li>
 </ol>
