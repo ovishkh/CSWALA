@@ -48,7 +48,7 @@
 **This project is licensed under the MIT License. You are free to use, modify, and distribute this project.**
 
 ## Credits
-**Gemini API Integration**
-**Kyle Cook**
-**Jonas Schmedtmann**
-**Mosh (Moshfegh) Hamedani**
+* **Gemini API Integration**
+* **Kyle Cook**
+* **Jonas Schmedtmann**
+* **Mosh (Moshfegh) Hamedani**
