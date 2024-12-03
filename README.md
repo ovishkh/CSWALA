@@ -20,3 +20,15 @@
  <li>Amazing Footer Section with Hover Animation.</li>
  <li>Scroll to Top Arrow Button for Navigation.</li>
 </ol>
+
+<h2>Future Enhancement</h2>
+<li>Enable User Authentication.</li>
+<li>Add a Dark Mode Toggle for Improved Accessibility.</li>
+<li>Dedicated Blogs Section for Latest Tech Wold Arcticles.</li>
+
+<h2>License</h2>
+<p>This project is licensed under the MIT License. You are free to use, modify, and contribute on this project.</p>
+
+## Credits
+- Developed by ` @KJ4Web `
+- Inspired by the aesthetic and functionality of ` Programming Hero `
