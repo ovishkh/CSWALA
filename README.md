@@ -43,3 +43,12 @@
 * **Open-Source Collaboration:**
   Contribute to the growth of CSWala by submitting bug reports, feature suggestions, or code improvements.
 * **[Specific guidelines for contributions, e.g., code style, testing procedures]**
+
+## License
+**This project is licensed under the MIT License. You are free to use, modify, and distribute this project.**
+
+## Credits
+**Gemini API Integration**
+**Kyle Cook**
+**Jonas Schmedtmann**
+**Mosh (Moshfegh) Hamedani**
