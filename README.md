@@ -72,4 +72,4 @@
   <h2 id="license">Licence</h2>
    <p>This project is licensed under Team Tengen. See the </b><a href="">LICENSE</a> file for more information.</p>
   <h2 id="acknowledgements">Acknowledgements</h2>
-   <p>We would like to thank all the contributors and the open-source community for their valuable resources and support. Special thanks to <a href="https://openai.com/">Open AI</a> for providing the language model that assisted in instructions.</p>
+   <p>We would like to thank all the contributors and the open-source community for their valuable resources and support. Special thanks to <a href="https://openai.com/">Open AI</a> for providing the language model that assisted in instructions. </p>
