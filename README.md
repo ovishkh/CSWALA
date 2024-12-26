@@ -64,11 +64,11 @@
       <li>Open a pull request</li>
     </ol>
    <h2 id="team-members">Team Members</h2>
-    <li><b>Kamrujjaman Tuhin: </b><a href="github.com/KJ4Web">GitHub Profile</a></li>
-    <li><b>Shahriar Nafis Ovi: </b><a href="github.com/ovishkh">GitHub Profile</a></li>
+    <li><b>Kamrujjaman Tuhin: </b><a href="https://github.com/KJ4Web">GitHub Profile</a></li>
+    <li><b>Shahriar Nafis Ovi: </b><a href="https://github.com/ovishkh">GitHub Profile</a></li>
     <li><b>Ramesha Rawnok Haque: </b><a href="https://github.com/rawnok-18">GitHub Profile</a></li>
-    <li><b>Apra Rani Das: </b><a href="github.com/ApraAditi">GitHub Profile</a></li>
-    <li><b>Khalid Anwar Antur: </b><a href="github.com/khalid-anwar-antur">GitHub Profile</a></li>
+    <li><b>Apra Rani Das: </b><a href="https://github.com/ApraAditi">GitHub Profile</a></li>
+    <li><b>Khalid Anwar Antur: </b><a href="https://github.com/khalid-anwar-antur">GitHub Profile</a></li>
   <h2 id="license">Licence</h2>
    <p>This project is licensed under Team Tengen. See the </b><a href="">LICENSE</a> file for more information.</p>
   <h2 id="acknowledgements">Acknowledgements</h2>
