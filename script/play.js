@@ -1,19 +1,17 @@
-// Select main video iframe and thumbnails
+
 const mainVideo = document.getElementById('main-video');
 const nextVideos = document.querySelectorAll('.recommendations li');
 const noteTextarea = document.getElementById('notes');
 
 
-// Select the toggle button and mobile navigation
 const menuToggle = document.getElementById('menu-toggle');
 const mobileNav = document.querySelector('.mobile-nav');
 
-// Toggle the mobile navigation menu
+
 menuToggle.addEventListener('click', () => {
     mobileNav.classList.toggle('expanded');
 });
 
-// Ensure the menu collapses when resizing to desktop view
 window.addEventListener('resize', () => {
     if (window.innerWidth >= 768) {
         mobileNav.classList.remove('expanded');
@@ -21,30 +19,29 @@ window.addEventListener('resize', () => {
 });
 
 
-// State to track main video completion
+
 let mainVideoCompleted = false;
 
-// Initially disable thumbnails' click functionality
+
 nextVideos.forEach((thumbnail) => {
     thumbnail.style.pointerEvents = "none";
     thumbnail.style.opacity = "0.5";
 });
 
-// Simulate main video completion (for demo purposes)
-// Replace this with a proper event listener if you have access to video duration/completion events.
+
 mainVideo.addEventListener('load', () => {
     setTimeout(() => {
         mainVideoCompleted = true;
 
-        // Enable thumbnail clicks
+        
         nextVideos.forEach((thumbnail) => {
             thumbnail.style.pointerEvents = "auto";
             thumbnail.style.opacity = "1";
         });
-    }, 5000); // Simulating completion after 5 seconds
+    }, 5000); 
 });
 
-// Play video from sidebar recommendations
+
 nextVideos.forEach((thumbnail) => {
     thumbnail.addEventListener('click', function () {
         if (!mainVideoCompleted) {
@@ -53,7 +50,7 @@ nextVideos.forEach((thumbnail) => {
             const videoLink = this.getAttribute('data-link');
             mainVideo.src = videoLink;
 
-            // Reset state for the new video
+           
             mainVideoCompleted = false;
             nextVideos.forEach((thumb) => {
                 thumb.style.pointerEvents = "none";
@@ -63,11 +60,10 @@ nextVideos.forEach((thumbnail) => {
     });
 });
 
-// Play video from course card button
+
 function playVideo(link) {
     mainVideo.src = link;
 
-    // Optionally reset or disable other buttons if needed
     mainVideoCompleted = false;
     nextVideos.forEach((thumb) => {
         thumb.style.pointerEvents = "none";
@@ -75,12 +71,11 @@ function playVideo(link) {
     });
 }
 
-// Save notes to local storage
 noteTextarea.addEventListener('input', () => {
     localStorage.setItem('courseNotes', noteTextarea.value);
 });
 
-// Load saved notes on page load
+
 document.addEventListener('DOMContentLoaded', () => {
     const savedNotes = localStorage.getItem('courseNotes');
     if (savedNotes) {
