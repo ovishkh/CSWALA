@@ -66,7 +66,7 @@
    <h2 id="team-members">Team Members</h2>
     <li><b>Kamrujjaman Tuhin: </b><a href="github.com/KJ4Web">GitHub Profile</a></li>
     <li><b>Shahriar Nafis Ovi: </b><a href="github.com/ovishkh">GitHub Profile</a></li>
-    <li><b>Ramesha Rawnok Haque: </b><a href="github.com/rawnok-18">GitHub Profile</a></li>
+    <li><b>Ramesha Rawnok Haque: </b><a href="https://github.com/rawnok-18">GitHub Profile</a></li>
     <li><b>Apra Rani Das: </b><a href="github.com/ApraAditi">GitHub Profile</a></li>
     <li><b>Khalid Anwar Antur: </b><a href="github.com/khalid-anwar-antur">GitHub Profile</a></li>
   <h2 id="license">Licence</h2>
