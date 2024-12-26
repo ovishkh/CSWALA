@@ -1,6 +1,6 @@
 <h1>Home Page - CSWALA</h1>
 <p>This branch contain the Home page for CSWALA.</p>
-<a href="cswala-sigma.vercel.app">Live Host Link</a>
+Visit Here: https://cswala-sigma.vercel.app
 <h2>Technonologies used to build the Home Page</h2>
 <p>This Home Page is totally built based on Next.js, Necessary Languages and Frameworks are listed below.</p>
 <ol>
