@@ -18,6 +18,10 @@ CS WALA is an online platform dedicated to providing affordable and accessible e
 * **Javascript**
 * **Font Awesome**
 * **Roboto**
+## View
+![image alt](https://github.com/ovishkh/CSWALA/blob/83ef750fc147c93560a866c7e80543046e4e2d72/web%20view.jpg)
+![image alt](https://github.com/ovishkh/CSWALA/blob/83ef750fc147c93560a866c7e80543046e4e2d72/phn%20view.jpg)
+
 
 ## Summary 
 
