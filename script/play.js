@@ -4,6 +4,23 @@ const nextVideos = document.querySelectorAll('.recommendations li');
 const noteTextarea = document.getElementById('notes');
 
 
+// Select the toggle button and mobile navigation
+const menuToggle = document.getElementById('menu-toggle');
+const mobileNav = document.querySelector('.mobile-nav');
+
+// Toggle the mobile navigation menu
+menuToggle.addEventListener('click', () => {
+    mobileNav.classList.toggle('expanded');
+});
+
+// Ensure the menu collapses when resizing to desktop view
+window.addEventListener('resize', () => {
+    if (window.innerWidth >= 768) {
+        mobileNav.classList.remove('expanded');
+    }
+});
+
+
 // State to track main video completion
 let mainVideoCompleted = false;
 

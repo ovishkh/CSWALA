@@ -17,61 +17,166 @@ body {
     color: #ffffff;
     line-height: 1.6;
 }
-
-header {
-    text-align: center;
-
-    background-color: #0f3460;
-    border-bottom: 2px solid #e94560;
-
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo Styles */
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
-.logo img {
+.header .logo img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
-nav ul {
+
+/* Desktop Navigation Styles */
+.desktop-nav {
     display: flex;
-    list-style: none;
+    align-items: center;
     gap: 20px;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.desktop-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
-    color: #ffffff;
+.desktop-nav ul li a {
+    color: var(--light-text);
     text-decoration: none;
-    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.desktop-nav ul li a:hover {
+    color: var(--accent-color);
 }
 
-.ask-ai-button {
-    background-color: #e94560;
-    color: #ffffff;
+/* Ask AI Button */
+.ask-ai-btn {
+    background-color: var(--accent-color);
+    color: var(--light-text);
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ask-ai-btn:hover {
+    background-color: #ff5e7c;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    display: none;
+}
+
+#menu-toggle {
+    font-size: 24px;
+    color: var(--light-text);
+    background: none;
+    border: none;
     cursor: pointer;
 }
 
-.ask-ai-button:hover {
+/* Mobile Navigation Styles */
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav ul li a {
+    display: block;
+    color: var(--light-text);
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.mobile-nav ul li a:hover {
+    background-color: var(--accent-color);
+}
+
+.mobile-ai-btn {
+    margin-top: 20px;
+    align-self: center;
+    background-color: var(--accent-color);
+    color: var(--light-text);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mobile-ai-btn:hover {
     background-color: #ff5e7c;
 }
+
+/* Hidden State for Mobile Nav */
+.mobile-nav.expanded {
+    display: flex;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none; /* Hidden by default */
+    }
+}
+
+/* Hover Effects for Buttons */
+.ask-ai-btn:hover,
+.mobile-ai-btn:hover {
+    background-color: #ff5e7c;
+    color: #fff;
+}
+
 
 /* Video Section */
 .video-section {

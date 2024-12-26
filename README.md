@@ -1,4 +1,4 @@
-# CS Wala Play
+# CS Wala Course Player
 
 A simple and interactive course video player designed for educational platforms. This project includes a main video player, a recommended video section, and a note-taking feature with persistent storage.
 
